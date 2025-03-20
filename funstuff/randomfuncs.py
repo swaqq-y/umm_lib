@@ -15,17 +15,17 @@ def rock_paper_scissors(variant):
     res = ''
     chos = random.choice(["rock", "paper", "scissors"])
     if variant.lower() == "rock" and chos == "scissors":
-        res == 'Win!!'
+        res = 'Win!!'
     elif variant.lower() == "paper" and chos == "rock":
-        res == 'Win!!'
+        res = 'Win!!'
     elif variant.lower() == "scissors" and chos == "paper":
-        res == "Win!!"
+        res = "Win!!"
     elif variant.lower == chos:
-        res == "Drawn game!"
+        res = "Drawn game!"
     elif variant.lower() == "paper" and chos == "scissors":
-        res == 'Lose:('
+        res = 'Lose:('
     elif variant.lower() == "rock" and chos == "paper":
-        res == 'Lose:('
+        res = 'Lose:('
     elif variant.lower() == "scissors" and chos == "rock":
-        res == 'Lose:('
+        res = 'Lose:('
     return res
